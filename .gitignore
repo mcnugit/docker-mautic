@@ -9,3 +9,5 @@ examples/*/*
 !examples/*/.mautic_env
 !examples/*/docker-compose.yml
 !examples/*/podman-compose.yml
+examples/podman-build/cron
+examples/podman-build/mautic
