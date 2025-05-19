@@ -63,6 +63,7 @@ The `examples` folder contains examples of `docker-compose` setups that use the 
 * `basic`: standard example using the `apache` image with `doctrine` as async queue.
 * `fpm-nginx`: example using the `fpm` image in combination with an `nginx` with `doctrine` as async queue.
 * `rabbitmq-worker`: example using the `apache` image with `rabbitmq` as async queue.
+* `podman-build`: example using `podman-compose` to build the `apache` image locally and run the `cron` and `worker` services.
 
 ## Building your own images
 
